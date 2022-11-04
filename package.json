@@ -1,9 +1,9 @@
 {
-  "name": "eureka.js",
+  "name": "node-eureka",
   "version": "0.0.1",
-  "description": "eureka js",
+  "description": "node eureka",
   "main": "lib/index.ts",
-  "repository": "https://github.com/qingyang-id/eureka.js",
+  "repository": "https://github.com/qingyang-id/node-eureka",
   "author": "yq",
   "license": "MIT",
   "scripts": {

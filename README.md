@@ -9,7 +9,7 @@ A JavaScript implementation of a client for Eureka (https://github.com/Netflix/e
 First, install the module into your node project:
 
 ```shell
-npm install eureka.js --save
+npm install node-eureka --save
 ```
 
 ### Add Eureka client to a Node application.
@@ -17,10 +17,10 @@ npm install eureka.js --save
 The Eureka module exports a JavaScript function that can be constructed.
 
 ```javascript
-import Eureka from 'eureka.js';
+import Eureka from 'node-eureka';
 
 // Or, if you're not using a transpiler:
-const Eureka = require('eureka.js').Eureka;
+const Eureka = require('node-eureka').Eureka;
 
 // example configuration
 const client = new Eureka({
@@ -157,8 +157,8 @@ If you are using Spring Cloud you'll likely need the following settings:
 
 - Set `eureka.servicePath` in your config to `/eureka/apps/`.
 - Use the newer style of the configuration [here](#400-bad-request-errors-from-eureka-server) or Spring Cloud Eureka will throw a 500 error.
-- Set `statusPageUrl` to a valid URL for your application, Spring Cloud [seems to require this](https://github.com/qingyang-id/eureka.js/issues/113) when the instance information is parsed.
-- Put single quotes around boolean `@enabled`. Unfortunately, a 500 error regarding parsing [seems to occur](https://github.com/qingyang-id/eureka.js/issues/63) without that.
+- Set `statusPageUrl` to a valid URL for your application, Spring Cloud [seems to require this](https://github.com/qingyang-id/node-eureka/issues/113) when the instance information is parsed.
+- Put single quotes around boolean `@enabled`. Unfortunately, a 500 error regarding parsing [seems to occur](https://github.com/qingyang-id/node-eureka/issues/63) without that.
 
 Below is an example configuration that should work with Spring Cloud Eureka server:
 
