@@ -1,7 +1,8 @@
 {
   "name": "node-eureka",
-  "version": "0.0.1",
-  "description": "node eureka",
+  "version": "0.0.2",
+  "description": "eureka js client",
+  "keywords": ["eureka", "eurekajs", "eureka client", "eureka-js-client", "netflix"],
   "main": "lib/index.ts",
   "repository": "https://github.com/qingyang-id/node-eureka",
   "author": "yq",
