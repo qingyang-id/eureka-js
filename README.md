@@ -1,4 +1,4 @@
-# Eurekajs
+# Eureka-js
 A JavaScript implementation of a client for Eureka (https://github.com/Netflix/eureka), the Netflix OSS service registry.
 
 ![](./img/eurekajs.jpg)
@@ -9,7 +9,7 @@ A JavaScript implementation of a client for Eureka (https://github.com/Netflix/e
 First, install the module into your node project:
 
 ```shell
-npm install eurekajs --save
+npm install eureka-js --save
 ```
 
 ### Add Eureka client to a Node application.
